@@ -24,7 +24,6 @@ async function renderPokemonList(pokemonList) {
       const response = await axios.get(pokemon.url)
       renderPokemon(list, response.data)
     })
-    https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png
   } */
 }
 
