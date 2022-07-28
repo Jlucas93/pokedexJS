@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Pokemon Solid";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Pokemon Solid"),
+      url("https://fonts.cdnfonts.com/s/17890/Pokemon Solid.woff") format("woff");
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(to right, #24c6dc, #514a9d);
+  }
+  
+  h1 {
+    font-family: "Pokemon Solid", sans-serif;
+    color: #ffcc03;
+    -webkit-text-stroke: 1px #3564ad;
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    width: 150px;
+    background-color: #cdecff;
+    box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 300ms ease;
+  }
+  
+  li:hover {
+    transform: scale(1.1);
+  }
+  
+  p {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  img {
+    width: 90px;
+    margin-top: 20px;
+    filter: saturate(2);
+  }
+  
